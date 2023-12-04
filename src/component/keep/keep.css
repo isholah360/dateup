@@ -1,0 +1,35 @@
+.keep-sign{
+    background-image: url("/asset/com@@.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 3rem 0 0 0;
+ 
+
+}
+.keep-sign .keep-cover{
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(239, 91, 133, 0.853) ;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+
+}
+.keep-cover .keep-in-touch{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.keep-cover .keep-subscribe{
+    font-size: 1.3rem;
+    margin: .5rem 0;
+}
+.keep-cover .keep-button button{
+    margin: .5rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 25px;
+    padding: 12px 2rem;
+    color: rgba(239, 91, 133, 0.853) ;
+}

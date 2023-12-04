@@ -1,0 +1,80 @@
+.find-people .find-match{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.find-people .find-match span{
+    font-size: 2.5rem;
+    font-weight: 550;
+    text-decoration: underline;
+    text-decoration-color: rgb(239, 91, 133) ;
+}
+.find-people .find-theright{
+    font-size: 1.2rem;
+}
+/*firstcard*/
+.line-one-card{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 3fr 1fr;
+    width: vw; 
+    gap: 2rem;
+    padding: 0 4.8rem;
+}
+.the-left-card{
+    position: relative;
+}
+.right-card{
+  position: relative;
+}
+.right-card .mainpic{
+    border-radius: 15px;
+    height: 45vh;
+    width: 28vw;
+    padding: 0;
+}
+.the-left-card .mainpic{
+    border-radius: 15px;
+    height: 45.5vh;
+    width: 57.5vw;
+    padding: 0;
+    margin: 0;
+}
+.cover-smaller, .cover-larger{
+ position: absolute;
+ background-color: rgba(0, 0, 0, 0.397);
+ border-radius: 15px;
+ width: 100%;
+ height: 98.5%;
+ top: 0;
+}
+.cover-smaller .bottom-content{
+   margin: 15rem 0 0 0;
+   font-weight: 500;
+}
+.cover-larger .bottom-content{
+    margin: 15rem 0 0 0;
+    font-weight: 500;
+ }
+ /*secondline*/
+/*second-line*/
+.the-second-line{
+    display: grid;
+    width: 85vw;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 4rem;
+}
+.right-sec-line{
+    
+}
+ .right-sec-line{
+    width: 28vw;
+ }
+ .right-sec-line .mainpic{
+    border-radius: 15px;
+    height: 45.5vh;
+    width: 28vw;
+    padding: 0;
+    margin: 0;
+}

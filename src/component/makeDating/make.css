@@ -1,0 +1,77 @@
+.the-making-width{
+    height: 80vh;
+}
+.making-headig{
+  font-size: 2.5rem;
+}
+.making-headig div{
+     margin:  0;
+}
+.making-headig p{
+    margin: 0 0 3rem 0;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: rgb(239, 91, 133) ;
+}
+.the-three-blubs{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.themake-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.three-circle{
+  position: relative;
+  display: flex;
+  margin: 0rem 1rem 0 -2rem;
+  
+}
+.three-circle .circle-one{
+    height: 6rem;
+    width: 6rem;
+    background-color: rgba(165, 75, 75, 0.507);
+    border-radius: 50%;
+}
+.three-circle .circle-two{
+    height: 6rem;
+    width: 6rem;
+    background-color: brown;;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0 1.5rem;
+    padding: 0 auto;
+}
+.circ-three{
+    margin: 0 -3rem;
+}
+.makes-content-blub .blub-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: 4.5rem 0 1rem 0;
+}
+.makes-content-blub .blub-body{
+    text-align: center;
+    font-weight: 500;
+    padding: 0 10%;
+}
+.themake-card .makes-content-blub{
+    background-color: white;
+    height: 16rem;
+    width: 20rem;
+    color: black;
+    border-radius: 10px;
+    margin: -3rem 0rem;
+}
+.circle-two .highlight{
+    width: 3rem;
+    margin: 1.5rem 0;
+    filter: invert(99%) sepia(36%) saturate(2%) 
+    hue-rotate(150deg) brightness(113%) contrast(101%);
+}

@@ -1,0 +1,102 @@
+.the-community{
+    margin-top: 8rem;
+}
+.the-meet-community{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: -2rem auto;
+    width: 50%;
+}
+
+.comm-buttons{
+    margin: 3rem 0 0 0;
+}
+
+.comm-buttons button{
+    border-radius: 20px;
+    background-color: rgba(204, 193, 177, 0);
+    border-style: solid;
+    border-width: 2px;
+    font-size: .9rem;
+    padding: .5rem 1.2rem;
+    margin: 0 .4rem;
+    font-weight: 500;
+    border-color: gray;
+}
+.top-round{
+    background-color: rgb(239, 91, 133) ;
+    height: 1.6rem;
+    width: 1.6rem;
+    left: 1.1rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2rem;
+    top:-.5rem
+}
+.bottom-round{
+    background-color: rgb(239, 91, 133) ;
+    border-radius: 50%;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    bottom:.5rem;
+    right: -.5rem;
+}
+.the-fit-pix{
+    width: 9rem;
+    height: 9rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.the-fit-pix img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(224, 224, 224, 0.075);
+}
+.the-com-card{
+    width: 13rem;
+    border-radius: 10px;
+    height: 16rem;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 1rem 0;
+}
+.the-com-card:hover{
+    background: lightgray;
+}
+
+.activity-name-member {
+    margin:  1.5rem 2rem 1rem 2rem;
+}
+.activity-name-member .activity-name{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+.activity-name-member .active-member{
+    color: gray;
+    font-weight: bold;
+    font-size: .8rem;
+    margin: .4rem 0;
+
+}
+.type-of-activities{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+.all-group button{
+    background-color: rgb(239, 91, 133) ;  
+    border-radius: 25px; 
+    padding: .8rem 1.8rem;
+}

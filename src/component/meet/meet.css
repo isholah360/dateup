@@ -1,0 +1,15 @@
+.let-meet-container{
+    padding: 0 2.5rem;
+}
+.letmeet{
+    font-size: 2rem;
+}
+.letmeet p{
+   margin: .5rem 0 0 0;
+}
+.letmeet div{
+    margin: 0rem 0 3rem 0;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: pink;
+ }

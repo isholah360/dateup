@@ -1,0 +1,58 @@
+.the-footer-path{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 85vw;
+    margin: 3rem auto;
+}
+.date-up-comm p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.date-up-comm .date-com-list{
+   margin: .5rem 0;
+}
+.date-up-pages .date-com-list{
+    margin: .5rem 0;
+ }
+.date-up-pages p{
+    font-size: 1.2rem;
+    font-weight: 500;   
+}
+.date-up-social p{
+    font-size: 1.2rem;
+    font-weight: 500; 
+}
+.date-up-register p{
+    font-size: 1.2rem;
+    font-weight: 500; 
+}
+.date-up-pages .date-com-list{
+
+}
+.date-up-social p{
+    font-weight: 500;
+    text-align: left;
+}
+.date-up-social .media-logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    margin: .5rem 0;
+}
+.media-logo img{
+    width: 1.2rem;
+    height: 1.2rem;
+    filter: invert(99%) sepia(36%) saturate(2%) 
+    hue-rotate(150deg) brightness(113%) contrast(101%);
+}
+.button button{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px 1.8rem;
+    background-color:  rgb(239, 91, 133) ;
+}

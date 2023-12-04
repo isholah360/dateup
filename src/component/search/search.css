@@ -1,0 +1,99 @@
+.search-bar-container{
+    width: 70vw;
+    height: 6.5rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: -5rem auto;
+    padding: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    
+}
+.search-bar-container .search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.search-bar{
+   width: 11rem;
+   font-size: .8rem;
+   font-weight: 500;
+   background-color: lightgray;
+   padding: .5rem .5rem .5rem 0rem;
+   color: rgb(77, 77, 77);
+}
+.first-option{
+    display: none;
+}
+.options{
+    background: lightgray;
+    font-size: .8rem;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+}
+.the-selection select{
+    border-style: none;
+}
+.complete-searchbar {
+   width: 13rem;
+   text-align: left;
+}
+.complete-searchbar label{
+    font-size: .9em;
+    margin: 0 0 .5rem 0;
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+}
+.search-bar-container{
+    display: flex;
+}
+.the-date input{
+    background-color: lightgray;
+    border-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+    
+}
+.complete-date .search-bar{
+    width: 5rem;
+}
+.complete-date .search-bar select{
+    color: rgb(66, 66, 66);
+    text-align: left;
+    border-style: none;
+    background-color: lightgray;  
+    width: 80%;
+    height: 100%; 
+}
+.complete-date label{
+    color: rgb(32, 32, 32);
+    text-align: left;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.complete-date{
+    max-width: 8rem;
+    text-align: left;
+}
+.select-region{
+    margin: 0 1.5rem;
+    width: 9rem;
+}
+.search-partner-button{
+    margin: 1.5rem 0 0 -2rem;
+}
+.search-partner-button button{
+   padding: 8px 1.8rem;
+   font-size: .7rem;
+   border-radius: 0;
+   background-color:  rgb(239, 91, 133) ;;
+}
+.search-partner-button button:hover{
+    border-style: none;
+    color: rgb(82, 82, 82);
+ }

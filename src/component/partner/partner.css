@@ -1,0 +1,40 @@
+.find-partner{
+    background-image: url("/asset/com@.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    
+}
+.bg-cover{
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-cover .find-your{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 1%;
+    text-align: center;
+}
+.bg-cover .find-your span{
+    font-weight: 550;
+    text-decoration: underline;
+    text-decoration-color: rgb(239, 91, 133) ;
+}
+.bg-cover .partner-members{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 42%;
+}
+.bg-cover p button{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 12px 1.7rem;
+    background-color: rgb(239, 91, 133) ;;
+    border-radius: 30px;
+    color: white
+}
