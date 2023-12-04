@@ -12,13 +12,13 @@ export default function FindPeople() {
         <FirstCard/>
         <div className="the-second-line">
           <div className="each-comp">
-            <SecCard picOne="/asset/cook.jpg" picTwo="asset/cooking.jpg" picActivity="COOKING MASTERS"/>
+            <SecCard picOne="asset/cook.jpg" picTwo="asset/cooking.jpg" picActivity="COOKING MASTERS"/>
           </div>
           <div className="each-comp ">
-            <SecCard picOne="/asset/travel5.jpg" picTwo="asset/theme.jpg" picActivity="TRAVEL & HICKING"/>
+            <SecCard picOne="asset/travel5.jpg" picTwo="asset/theme.jpg" picActivity="TRAVEL & HICKING"/>
           </div>
           <div className="each-comp">
-            <SecCard picOne="/asset/tech.jpg" picTwo="asset/theme.jpg" picActivity="GAMING"/>
+            <SecCard picOne="asset/tech.jpg" picTwo="asset/theme.jpg" picActivity="GAMING"/>
           </div>
         </div>
     </div>

@@ -52,7 +52,7 @@ export default function Meet() {
           <Slider {...settings}>
             <div>
               <MeetCard
-                image="/asset/mem.jpg"
+                image="asset/mem.jpg"
                 newname="Sylvia Mark"
                 age="46"
                 gender="Female"
@@ -60,7 +60,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem9.jpg"
+                image="asset/mem9.jpg"
                 newname="Jim Mike"
                 age="46"
                 gender="Female"
@@ -69,7 +69,8 @@ export default function Meet() {
             <div>
               <MeetCard
                 image="/asset/mem.jpg"
-                newname="Sofia Lance"
+                newname
+                ="Sofia Lance"
                 age="46"
                 gender="Female"
               />
