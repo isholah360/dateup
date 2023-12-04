@@ -68,7 +68,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem.jpg"
+                image="asset/mem.jpg"
                 newname
                 ="Sofia Lance"
                 age="46"
@@ -77,7 +77,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem1.jpg"
+                image="asset/mem1.jpg"
                 newname="Karl Stone"
                 age="46"
                 gender="Female"
@@ -85,7 +85,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem2.jpg"
+                image="asset/mem2.jpg"
                 newname="Alli Brooke"
                 age="46"
                 gender="Female"
@@ -93,7 +93,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem3.jpg"
+                image="asset/mem3.jpg"
                 newname="Kate Henze"
                 age="46"
                 gender="Female"
@@ -101,7 +101,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem4.jpg"
+                image="asset/mem4.jpg"
                 newname="Mark Kent"
                 age="46"
                 gender="Female"
@@ -109,7 +109,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem5.jpg"
+                image="asset/mem5.jpg"
                 newname="Sylvia Mark"
                 age="46"
                 gender="Female"
@@ -117,7 +117,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem6.jpg"
+                image="asset/mem6.jpg"
                 newname="Jesus Stolk"
                 age="46"
                 gender="Female"
@@ -125,7 +125,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem7.jpg"
+                image="asset/mem7.jpg"
                 newname="Audrey Soft"
                 age="46"
                 gender="Female"
@@ -133,7 +133,7 @@ export default function Meet() {
             </div>
             <div>
               <MeetCard
-                image="/asset/mem8.jpg"
+                image="asset/mem8.jpg"
                 newname="Mike Legend"
                 age="46"
                 gender="Female"
