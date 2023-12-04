@@ -88,9 +88,15 @@
 .slick-initialized .slick-list button{
     display: none;
 }
+.header-img-container .slick-slider .slick-prev:before{
+  display: none;
+}
+.header-img-container .slick-slider .slick-next:before{
+    display: none;
+  }
 .slick-prev:before
 {
-    display: none;
+   
     background-color:  rgb(239, 91, 133) ;
     padding: .7rem 1.8rem;
     border-radius: 10px;
@@ -115,7 +121,6 @@
     background-color: rgb(239, 91, 133) ;
     padding: .7rem 1.8rem;
     border-radius: 10px;
-    display: none;
 }
 [dir='rtl'] .slick-next:before
 {
