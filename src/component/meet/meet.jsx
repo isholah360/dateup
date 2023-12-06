@@ -48,7 +48,7 @@ export default function Meet() {
           <p>Meet our new</p>
           <div> Lovely Members</div>
         </div>
-        <div className="theslider">
+        <div className="theslider"  >
           <Slider {...settings}>
             <div>
               <MeetCard

@@ -1,3 +1,6 @@
+.community-container{
+    margin: 2rem 0;
+}
 .the-community{
     margin-top: 8rem;
 }
@@ -99,4 +102,5 @@
     background-color: rgb(239, 91, 133) ;  
     border-radius: 25px; 
     padding: .8rem 1.8rem;
+    margin: 3rem 0;
 }

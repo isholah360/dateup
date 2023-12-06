@@ -55,9 +55,10 @@ function Header() {
                   Researching the soul mate is something difficult. DateUp
                   offers you the opportunity to simply accelerate the process by
                   finding your life partner.
-                </div>
-                <div className="the-heading-button" ref={suButton}>
                   <button>Find More</button>
+                </div>
+                <div className="the-heading-button">
+                  <div>Sign Up</div>
                 </div>
               </div>
               <div className="head-imgs">
@@ -75,8 +76,8 @@ function Header() {
                   Still looking for your significant other? DateUp is right 
                   place for your! Join now to meet single and women around the world.
                 </div>
-                <div className="the-heading-button" ref={suButton}>
-                  <button>Find More</button>
+                <div className="the-heading-button">
+                  <div>Sign In</div>
                 </div>
               </div>
               <div className="head-imgs">
@@ -84,6 +85,7 @@ function Header() {
               </div>
             </div>
           </div>
+          
           <div>
             <div className="header-img-content">
               <div className="head-content">
