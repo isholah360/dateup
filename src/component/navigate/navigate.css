@@ -25,8 +25,88 @@
     list-style: none;
     font-weight: 500;
 }
+.farbar, .close, .the-mobile{
+    display: none;
+}
 .app-link button{
     padding: 12px 1.2rem;
     border-radius: 25px;
     background-color: rgb(239, 91, 133) ;
+}
+@media screen and (max-width: 760px) {
+    .naviagtion{
+        width: 80vw;
+        height: 3vh;
+        background-color: rgb(239, 91, 133) ;
+        color: brown;
+        margin: 10px auto;
+        padding: 0rem 0 2.3rem 0;
+        border-radius: 30px;
+        overflow-x: hidden;
+        display: flex; 
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-link{
+        font-size:1rem ;
+        color: white;
+        padding: 0 0.5rem;
+    }
+    .navigate-list{
+        position: absolute;
+        z-index: 200;
+        top: -1rem;
+        right: -18.5rem;
+    }
+    .navigate-list ul{
+        display: block;
+        padding: 2rem 5rem 6rem 1rem;
+        position: relative;
+        text-align: left;
+        background-color: azure;
+        justify-content: space-around;
+    }
+    .navigate-list ul li{
+        margin: .8rem 1rem;
+        list-style: none;
+        padding: 0rem 0;
+        font-weight: 500;
+    }
+    .close{
+        font-size: 1.5rem;
+        position: absolute;
+        display: block;
+        margin: 0rem 0 3rem 0; 
+        padding: 0rem 0 3rem 0; 
+        top: 0;
+        right: 2rem;
+        color: black;
+    }
+    .farbar div{
+        height: 3px;
+        width: 30px;
+        background-color: white;
+        margin: 4px 0;
+        
+    }
+    .farbar {
+        position: absolute;
+        display: block;
+        top: .5rem;
+        right: 2rem;
+    }
+    .app-link{
+        display: none;
+    }
+    .the-mobile{
+        display: block;
+        position: absolute;
+        margin: 1rem 1rem;
+    }
+    .the-mobile button{
+       color: white;
+       background-color: rgb(239, 91, 133) ;
+       padding: 0.3rem 1rem;
+    }
 }

@@ -37,11 +37,13 @@ export default function Community() {
             actname="Cooking"
             comimg="asset/cooking.jpg"
           />
-          <CommCard
-            members="12 MEMBERS"
-            actname="Tattoo"
-            comimg="asset/tatto.jpg"
-          />
+          <div className="last-comm">
+            <CommCard
+              members="12 MEMBERS"
+              actname="Tattoo"
+              comimg="asset/tatto.jpg"
+            />
+          </div>
         </div>
         <div className="all-group">
           <button>Discover All Groups</button>

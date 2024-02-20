@@ -33,3 +33,16 @@
     padding: 12px 2rem;
     color: rgba(239, 91, 133, 0.853) ;
 }
+@media screen and (max-width: 760px) {
+    .keep-cover .keep-in-touch{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .keep-cover .keep-subscribe{
+        font-size: 1rem;
+        margin: .5rem 0;
+    }
+    .keep-cover .keep-button button{
+        font-size: .95rem;
+    }
+}

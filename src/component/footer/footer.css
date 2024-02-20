@@ -69,4 +69,13 @@
     transition: 200ms;
     cursor: pointer;
 }
+@media screen and (max-width: 760px) {
+    .the-footer-path{
+        display: grid;
+        text-align: left;
+        grid-template-columns: 1fr;
+        width: 85vw;
+        margin: 3rem auto;
+    }
+}
 

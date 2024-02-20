@@ -75,3 +75,29 @@
     filter: invert(99%) sepia(36%) saturate(2%) 
     hue-rotate(150deg) brightness(113%) contrast(101%);
 }
+@media screen and (max-width: 760px) {
+    .the-making-width{
+        margin: 0 1rem;
+    }
+    .making-headig {
+        font-size: 1.3rem;
+    }
+    .making-headig p{
+        font-size: 1.5rem;
+    }
+    .the-three-blubs{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .themake-card .makes-content-blub{
+        background-color: white;
+        height: 18rem;
+        width: 18rem;
+        color: black;
+        border-radius: 10px;
+        margin: -3rem 0rem;
+    }
+}

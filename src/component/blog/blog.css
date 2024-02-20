@@ -63,3 +63,39 @@
     color: white;
     padding: 10px 2.5rem;
 }
+@media screen and (max-width: 760px) {
+    .lists-of-blogs{
+        display: grid;
+        justify-items: center;
+        row-gap: 2rem;
+        grid-template-columns: 1fr;
+        margin: 65rem 3rem 3rem 3rem;
+        padding: 0 1rem;
+    }
+    .complete-blog .making-headig{
+        position: absolute;
+        width: 100%;
+        margin: -8rem 0;
+    }
+    .blog-blub{
+        /* height: 25rem; */
+        width: 100%;
+        /* max-width: 30rem; */
+        background-color: white;
+        margin: 0 2rem 0 0rem;
+    }
+}
+@media screen and (max-width: 378px) {
+    .blog-blub{
+        /* height: 25rem; */
+        width: 100%;
+        /* max-width: 30rem; */
+        background-color: white;
+        margin: 0 2rem 0 -1rem;
+    }
+    .complete-blog .making-headig{
+        position: absolute;
+        width: 100%;
+        margin: -8rem 1rem;
+    }
+}

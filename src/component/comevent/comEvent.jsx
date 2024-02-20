@@ -28,8 +28,8 @@ function ComEvent() {
   return (
     <div ref={parallaxRef}>
       <div className="com-events" ref={parallaxa}>
-        <div className="letmeet com-letmeet">
-          <p> Be part of our next</p>
+        <div className="letmeet">
+          <p className="eve-title"> Be part of our next</p>
           <div> Community Events. </div>
           <div className="event-content">
             Be part of ou next Community Events & meet other people like you.

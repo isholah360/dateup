@@ -25,7 +25,7 @@ export default function Meet() {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 820,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -33,7 +33,7 @@ export default function Meet() {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

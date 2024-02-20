@@ -27,7 +27,7 @@ function Blog() {
       );
   }, []);
   return (
-    <div  ref={parallaxRef}>
+    <div  ref={parallaxRef} className="complete-blog">
         <div className="making-headig">
           <div>Discover Our</div>
           <p> Awesome Blog Stories</p>

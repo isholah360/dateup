@@ -13,3 +13,22 @@
     text-decoration: underline;
     text-decoration-color: pink;
  }
+ 
+ @media screen and (max-width: 500px)and (max-width: 610px)  {
+   .theslider{
+      margin-left: 7%;
+      width: 100%;
+   }
+   .slick-prev{
+    margin-left: -6rem;
+}
+} 
+@media screen and (min-width: 500px) and (max-width: 780px){
+    .theslider{
+       margin-left: 10%;
+       width: 100%;
+    }
+    .slick-prev{
+        margin-left: -10rem;
+    }
+ } 
