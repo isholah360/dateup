@@ -2,7 +2,7 @@ import "./navigate.css";
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { Link } from "react-router-dom";
-import LoginScreen from "../../pages/screen/loginScreen";
+
 
 function Navigate() {
   const menuMove = useRef(null);

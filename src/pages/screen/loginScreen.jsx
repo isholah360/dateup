@@ -58,16 +58,17 @@ function LoginScreen() {
             onChange={(e) => setPassword(e.target.value)}
           />
           <br />
+          <br />
           <button>{status === "loading"? "loading...." : "Login" }</button>
           <button>{status === "loading"? "loading...." : "Continue With Goggle" }</button>
-          <p>{err && <div>{error}</div>}</p>
+          <p >{err && <div>{error}</div>}</p>
         </form>
-        <p>
+        <div className="login-submit">
           Don't have an account?{" "}
           <Link to="/register">
             <span>Register</span>
           </Link>
-        </p>
+        </div>
       </div>
     </>
   );
