@@ -37,9 +37,9 @@ function Navigate() {
             </div>
             <li>Home</li>
             <li>Abou Us</li>
-            <Link to='/login'>
+          
                  <li>Blog</li>
-            </Link>
+        
             
             <li>Contact</li>
             <li>coming Soon</li>
