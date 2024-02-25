@@ -86,7 +86,7 @@
     left: auto;
 }
 .slick-initialized .slick-list button{
-    display: none;
+   
 }
 .header-img-container .slick-slider .slick-prev:before{
   display: none;

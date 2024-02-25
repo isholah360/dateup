@@ -1,0 +1,76 @@
+.sign-form{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    width: 100vw;
+}
+.sign-form .login{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sign-form form{
+ width: 30%;
+ margin-top: 1rem;
+}
+.sign-form form input{
+    width: 100%;
+    padding: .5rem .8rem;
+   }
+.sign-form form div{ 
+    text-align: left;
+    margin: -.5rem 0;
+    padding: 1rem 0rem;
+}
+.sign-form form button{
+    width: 106.5%;
+    margin: 0rem 0 1rem 0;
+
+}
+.google{
+    background-color: brown;
+}
+.sign-form p{
+  font-size: .9rem;
+  text-align: left;
+  margin: -1rem 0 1rem 0;
+  width: 30%;
+}
+.sign-form p span{
+  color: blue;
+  
+}
+.photo{
+    height: 5rem;
+    border-radius: 50%;
+    width: 5rem;
+    margin: 1rem 0 2rem 0;
+}
+.name-user{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.login-delete{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+@media screen and (max-width: 760px) {
+    .sign-form{
+        display: grid;
+        justify-items: left;
+        align-content: center;
+        width: 100vw;
+        margin:  0 1.8rem;
+    }
+    .sign-form form{
+        width: 60%;
+    }
+    .sign-form p{
+        font-size: .9rem;
+        text-align: left;
+        margin: -1rem 0 1rem 0;
+        width: 100%;
+      }
+}

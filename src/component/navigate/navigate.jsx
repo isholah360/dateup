@@ -1,6 +1,8 @@
 import "./navigate.css";
 import { useRef } from "react";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
+import LoginScreen from "../../pages/screen/loginScreen";
 
 function Navigate() {
   const menuMove = useRef(null);
@@ -28,9 +30,17 @@ function Navigate() {
             <div className="close" onClick={handleClose}>
               X
             </div>
+            <div className="account">
+              <Link to='/login'>
+                <button>Login</button>
+              </Link>
+            </div>
             <li>Home</li>
             <li>Abou Us</li>
-            <li>Blog</li>
+            <Link to='/login'>
+                 <li>Blog</li>
+            </Link>
+            
             <li>Contact</li>
             <li>coming Soon</li>
             <div className="the-mobile">

@@ -1,2 +1,5 @@
 export {default as Home} from './home/home'
 export {default as About} from './about/about'
+export {default as RegScreen} from './screen/regScreen'
+export {default as LoginScreen} from './screen/loginScreen'
+export {default as ProfileScreen} from './screen/profileScreen'

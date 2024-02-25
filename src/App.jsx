@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import {Home} from './pages/index'
+import { Outlet, } from 'react-router-dom'
+
 
 
 function App() {
@@ -8,9 +9,12 @@ function App() {
 
   return (
     <>
-     <div className="dating">
-      <Home/>
-     </div>
+
+         {/* <Routes>
+           <Route path='/' element={<Home/>}/>
+         </Routes> */}
+         <Outlet/>
+   
     </>
   )
 }

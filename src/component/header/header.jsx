@@ -7,10 +7,18 @@ import gsap from "gsap";
 import { Power3 } from "gsap";
 import { useEffect, useRef } from "react";
 import Search from "../search/search";
+import { Link, useNavigate} from "react-router-dom";
+
 function Header() {
   const title = useRef(null);
   const subTitle = useRef(null);
   const suButton = useRef(null);
+  const navigate = useNavigate()
+ 
+  const handleLog = ()=>{
+       navigate('/login')
+  }
+
   useEffect(() => {
     gsap.fromTo(
       title.current, // Target element
@@ -38,12 +46,16 @@ function Header() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    cssEase: "linear"
+    cssEase: "linear",
   };
   return (
     <div>
       <div className="header-img-container">
         <Navigate />
+        {/* <Link to="/login">
+        <button>hello</button>
+                  </Link> */}
+       
         <Slider {...settings}>
           <div>
             <div className="header-img-content">
@@ -55,10 +67,12 @@ function Header() {
                   Researching the soul mate is something difficult. DateUp
                   offers you the opportunity to simply accelerate the process by
                   finding your life partner.
-                  <button>Find More</button>
+                  
                 </div>
                 <div className="the-heading-button">
-                  <div>Sign Up</div>
+                  <Link to="/login">
+                    {<div>Sign Up</div>}
+                  </Link>
                 </div>
               </div>
               <div className="head-imgs">
@@ -73,19 +87,22 @@ function Header() {
                   Find your Life partner.{" "}
                 </div>
                 <div className="head-subtitle" ref={subTitle}>
-                  Still looking for your significant other? DateUp is right 
-                  place for your! Join now to meet single and women around the world.
+                  Still looking for your significant other? DateUp is right
+                  place for your! Join now to meet single and women around the
+                  world.
                 </div>
-                <div className="the-heading-button">
-                  <div>Sign In</div>
-                </div>
+               
+                  <div className="the-heading-button" onClick={handleLog}>
+                    <div >Sign In</div>
+                  </div>
+              
               </div>
               <div className="head-imgs">
                 <img src="asset/hea.png" alt="" />
               </div>
             </div>
           </div>
-          
+
           <div>
             <div className="header-img-content">
               <div className="head-content">
@@ -93,8 +110,8 @@ function Header() {
                   Find your Life Soulmate With Our Dating App.{" "}
                 </div>
                 <div className="head-subtitle" ref={subTitle}>
-                  Download and Research your perfect Soulmate on DateUp
-                  powerful App.
+                  Download and Research your perfect Soulmate on DateUp powerful
+                  App.
                 </div>
                 <div className="the-heading-button" ref={suButton}>
                   <img src="asset/gogu.png" alt="" />
@@ -123,7 +140,8 @@ function Header() {
             <img src="asset/heb.png" alt="" />
           </div>
         </div> */}
-        <Search/>
+      
+        <Search />
       </div>
     </div>
   );
