@@ -30,6 +30,9 @@
 .farbar, .close, .the-mobile{
     display: none;
 }
+.app-link{
+    display: flex;
+}
 .app-link button{
     padding: 12px 1.2rem;
     border-radius: 25px;
@@ -37,6 +40,19 @@
 }
 .account button{
     display: none;
+ }
+ .account{
+    display: none;
+ }
+ .profilepix{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+ }
+ .profilepix img{
+   width: 100%;
+   border-radius: 50%;
  }
 @media screen and (max-width: 760px) {
     .naviagtion{
@@ -110,10 +126,28 @@
         position: absolute;
         margin: 1rem 1rem;
     }
+    .mobile-logout div{
+        background-color: rgb(239, 91, 133) ;
+        color: white;
+        padding: 3px 20px;
+        border-radius: 5px;
+        margin: .5rem 0;
+    }
     .the-mobile button{
        color: white;
        background-color: rgb(239, 91, 133) ;
        padding: 0.3rem 1rem;
+    }
+    .account{
+        display: flex;
+    }
+    .mobile-profile{
+        margin: 1rem 1rem;
+    }
+    .mobile-photo{
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 50%;
     }
     .account button{
         display: block;

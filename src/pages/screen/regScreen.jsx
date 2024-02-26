@@ -9,6 +9,8 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { GoogleAuthProvider, signInWithPopup, getAuth } from "firebase/auth";
 import { app } from "../../../firebase";
+import { setCred } from "../../redux/authSlice";
+
 import axios from 'axios'
 
 function RegScreen() {
@@ -20,6 +22,7 @@ function RegScreen() {
   const dispatch = useDispatch();
   const status = useSelector(getAuthStatus);
   const error = useSelector(getAuthError);
+  
 
   const navigate = useNavigate();
 
@@ -55,13 +58,12 @@ function RegScreen() {
       const result = await signInWithPopup(auth, provider);
       const res = await axios.post("http://localhost:8000/api/user/google", {
         username: result.user.displayName, 
-        emial: result.user.email,
-        profilePhoto: result.user.photoURL
+        email: result.user.email,
+        photo: result.user.photoURL
       })
-     
-      console.log(res)
-       
-      
+      const data = JSON.parse(res.config.data)
+      dispatch(setCred(data))
+       navigate('/profile')
     } catch (error) {
       console.log(error)
     }

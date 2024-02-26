@@ -45,6 +45,14 @@
    cursor: pointer;
    z-index: 1000;
 } 
+.the-heading-button button{
+   display: flex;
+   gap: 1rem;
+   cursor: pointer;
+   background-color: white;
+   z-index: 2000;
+   color:  rgb(239, 91, 133) ;
+}
 
 .the-heading-button img{
     width: 10rem;

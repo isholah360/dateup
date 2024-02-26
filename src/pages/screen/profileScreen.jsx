@@ -5,7 +5,7 @@ import "./log.css";
 
 function ProfileScreen() {
     const currentUser = useSelector(getCurrentUser)
-    const user =  (currentUser.payload)
+    const user =  (currentUser)
     console.log(user)
     
   return (

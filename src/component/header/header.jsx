@@ -7,17 +7,19 @@ import gsap from "gsap";
 import { Power3 } from "gsap";
 import { useEffect, useRef } from "react";
 import Search from "../search/search";
-import { Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Header() {
   const title = useRef(null);
   const subTitle = useRef(null);
   const suButton = useRef(null);
-  const navigate = useNavigate()
- 
-  const handleLog = ()=>{
-       navigate('/login')
-  }
+  const suButton1 = useRef(null);
+  const suButton2 = useRef(null);
+  const navigate = useNavigate();
+
+  const handleLog = () => {
+    navigate("/login");
+  };
 
   useEffect(() => {
     gsap.fromTo(
@@ -38,6 +40,30 @@ function Header() {
       { opacity: 1, duration: 10, ease: Power3.easeOut } // Final state
     );
   }, []);
+  useEffect(() => {
+    gsap.fromTo(
+      suButton1.current, // Target element
+      { opacity: 0, y: "2rem" }, // Initial state
+      {
+        opacity: 1,
+        y: " .5rem",
+        position: "absolute",
+        duration: 10,
+        ease: Power3.easeOut,
+      } // Final state
+    );
+    gsap.fromTo(
+      suButton2.current, // Target element
+      { opacity: 0, y: "2rem" }, // Initial state
+      {
+        opacity: 1,
+        y: " .5rem",
+        position: "absolute",
+        duration: 10,
+        ease: Power3.easeOut,
+      } // Final state
+    );
+  }, []);
   const settings = {
     infinite: true,
     fade: true,
@@ -55,7 +81,7 @@ function Header() {
         {/* <Link to="/login">
         <button>hello</button>
                   </Link> */}
-       
+
         <Slider {...settings}>
           <div>
             <div className="header-img-content">
@@ -67,11 +93,10 @@ function Header() {
                   Researching the soul mate is something difficult. DateUp
                   offers you the opportunity to simply accelerate the process by
                   finding your life partner.
-                  
                 </div>
-                <div className="the-heading-button">
+                <div className="the-heading-button" ref={suButton2}>
                   <Link to="/login">
-                    {<div>Sign Up</div>}
+                    <div>Sign In</div>
                   </Link>
                 </div>
               </div>
@@ -91,11 +116,12 @@ function Header() {
                   place for your! Join now to meet single and women around the
                   world.
                 </div>
-               
-                  <div className="the-heading-button" onClick={handleLog}>
-                    <div >Sign In</div>
-                  </div>
-              
+
+                <div className="the-heading-button" ref={suButton1}>
+                  <Link to="/register">
+                    <div>Sign Up</div>
+                  </Link>
+                </div>
               </div>
               <div className="head-imgs">
                 <img src="asset/hea.png" alt="" />
@@ -124,6 +150,7 @@ function Header() {
             </div>
           </div>
         </Slider>
+
         {/* <div className="header-img-content">
           <div className="head-content">
             <div className="head-title" ref={title}>Find your Life partner. </div>
@@ -140,7 +167,7 @@ function Header() {
             <img src="asset/heb.png" alt="" />
           </div>
         </div> */}
-      
+
         <Search />
       </div>
     </div>

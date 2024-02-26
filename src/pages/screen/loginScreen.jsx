@@ -17,17 +17,20 @@ function LoginScreen() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setErr(null); // Reset error state to null
-    if (password && email) {
-      const result = await dispatch(handleLogin({ password, email }));
-      dispatch(setCred(result))
-      if (handleLogin.fulfilled.match(result)) {
-        navigate("/profile");
-        setEmail("");
-        setPassword("");
-      } else if (handleLogin.rejected.match(result)) {
-        setErr(result.error.message); // Set error message if registration fails
+    try {
+      if (password && email) {
+        const result = await dispatch(handleLogin({ password, email })).unwrap();
+        console.log((result))
+        dispatch(setCred(result))
+          navigate("/profile");
+          setEmail("");
+          setPassword("");
       }
+    } 
+    catch (error) {
+        setErr(error.message); // Set error message if registration fails
     }
+    
   };
   
   useEffect(() => {
@@ -60,7 +63,7 @@ function LoginScreen() {
           <br />
           <br />
           <button>{status === "loading"? "loading...." : "Login" }</button>
-          <button>{status === "loading"? "loading...." : "Continue With Goggle" }</button>
+          <button className="google">{status === "loading"? "loading...." : "Continue With Goggle" }</button>
           <p >{err && <div>{error}</div>}</p>
         </form>
         <div className="login-submit">
