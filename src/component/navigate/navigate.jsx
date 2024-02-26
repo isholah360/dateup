@@ -36,11 +36,11 @@ function Navigate() {
             <div className="account">
               {currentUser ? (
                 <div className="mobile-profile">
-                  <img
+                  {/* <img
                     className="mobile-photo"
                     src={currentUser.photo}
                     alt=""
-                  />
+                  /> */}
                   <div className="mobile-name">{currentUser.username} </div>
                   <div className="mobile-logout">
                     <div>Logout</div>
@@ -72,7 +72,7 @@ function Navigate() {
         <div className="app-link">
           <div className="profilepix">
              <Link to='/profile'>
-                <img className="page-photo" src={currentUser.photo} alt="" />
+                {/* <img className="page-photo" src={currentUser.photo} alt="" /> */}
              </Link>
           </div>
           <button>Get the App</button>

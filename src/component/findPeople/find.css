@@ -133,6 +133,13 @@
     .each-comp{
         margin: 0 6rem 0 0rem;
     }
+    .find-people .find-match{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .find-people .find-match span{
+        font-size: 1.8rem;
+    }
 }
 @media screen and (max-width: 460px) {
     .each-comp{
